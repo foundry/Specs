@@ -1,6 +1,6 @@
 {
   "name": "VPKit",
-  "version": "0.2.0-zp",
+  "version": "0.2.0",
   "summary": "VPKit for iOS.",
   "homepage": "http://veepio.com",
   "description": "VPKit for serving interactive video",
