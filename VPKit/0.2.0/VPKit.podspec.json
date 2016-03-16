@@ -23,7 +23,7 @@
   "libraries": [
   ],
   "dependencies": {
-    "GoogleAnalytics-iOS-SDK": []
+    "GoogleAnalytics": []
   },
   "frameworks": [
     "AVFoundation",
