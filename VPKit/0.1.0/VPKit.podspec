@@ -31,10 +31,16 @@ Interactive video with trackable hotspots.
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'VPKit' => ['Pod/Assets/*.png']
-  }
+  s.preserve_paths = "VPKit.framework/"
+  s.public_header_files = "VPKit.framework/Headers/*{.h,.hpp}"
+  s.vendored_frameworks = "VPKit.framework/"
+  s.header_dir = "VPKit.framework/"
+  s.header_mappings_dir = "VPKit.framework/"
+  
+  #s.source_files = 'Pod/Classes/**/*'
+  #s.resource_bundles = {
+  # 'VPKit' => ['Pod/Assets/*.png']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
