@@ -22,6 +22,9 @@
   "header_mappings_dir": "VPKit.framework/Headers/",
   "libraries": [
   ],
+  "dependencies": {
+    "GoogleAnalytics-iOS-SDK": []
+  },
   "frameworks": [
     "AVFoundation",
     "AVKit",
