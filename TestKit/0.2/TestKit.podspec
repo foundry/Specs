@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "TestFKit"
-  s.version      = "0.1"
-  s.summary      = "TestFKit tests veeps."
+  s.name         = "TestKit"
+  s.version      = "0.2"
+  s.summary      = "TestKit tests veeps."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,8 +26,9 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
                    this library tests things
+                   DESC
 
-  s.homepage     = "https://github.com/foundry/TestFKit"
+  s.homepage     = "https://github.com/foundry/TestKit"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/foundry/TestFKit.git", :tag => "#{s.version}"}
+  s.source       = { :git => "https://github.com/foundry/TestKit.git", :tag => "#{s.version}"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TestFKit", "Classes/**/*.{h,m}"
-  s.exclude_files = "TestFKit/Exclude"
+  s.source_files  = "TestKit", "Classes/**/*.{h,m}"
+  s.exclude_files = "TestKit/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
