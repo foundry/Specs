@@ -10,13 +10,15 @@
   },
   "authors": "opencv.org",
   "source": {
-    "http": "https://github.com/foundry/openCVzip/blob/master/2.4.9.2/opencv2.framework.zip"
+    "http": "https://dl.dropboxusercontent.com/u/26014957/opencv2.framework.2.4.9.zip"
   },
   "platforms": {
     "ios": "4.0"
   },
   "preserve_paths": "opencv2.framework",
   "public_header_files": "opencv2.framework/Versions/A/Headers/**/*{.h,.hpp}",
+   "source_files": "opencv2.framework/Versions/A/Headers/**/*{.h,.hpp}",
+
   "vendored_frameworks": "opencv2.framework",
   "header_dir": "opencv2",
   "header_mappings_dir": "opencv2.framework/Versions/A/Headers/",
